@@ -5,7 +5,7 @@ PROJECT_NAME = Project
 BUILD = build
 
 # All source code files
-src=src/project.cpp\
+SRC=src/project.cpp\
 
 # All test source files
 TEST_SRC = src/project.cpp\
@@ -14,7 +14,7 @@ test/test_test.cpp
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc
+INC = -Iinc
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
